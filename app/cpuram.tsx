@@ -32,7 +32,7 @@ export default function CpuRam () {
     }, [ramSize])
 
     return (
-        <div className="flex flex-col w-[692px] gap-2">
+        <div className="flex flex-col container gap-2">
             <Info 
             title="Процессор и память"
             text='Как выбрать количество ядер и памяти ?'

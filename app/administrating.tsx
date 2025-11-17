@@ -5,9 +5,9 @@ import { useState, useMemo } from "react"
 import Info from "@/components/info";
 import DualToggle from "@/components/toggle";
 
-export default function Administration () {
+export default function Administrating () {
     return (
-        <div className="flex flex-col w-[692px] gap-2">
+        <div className="flex flex-col container gap-2">
             <Info 
             title="Администрирование"
             text="Зачем нужно администрирование ?"

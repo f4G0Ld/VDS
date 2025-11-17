@@ -7,7 +7,7 @@ import DualToggle from "@/components/toggle";
 
 export default function Security () {
     return (
-        <div className="flex flex-col w-[692px] gap-2">
+        <div className="flex flex-col container gap-2">
             <Info 
             title="Защита сервера и сайта"
             text="Зачем нужна защита сервера и сайта ?"

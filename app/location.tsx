@@ -13,7 +13,7 @@ export default function Location () {
     }, [activeId]);
 
     return (
-        <div className="flex flex-col w-[692px] gap-2">
+        <div className="flex flex-col flex-1 gap-2">
             <Info
             title="Локация" 
             text="На что влияет локация ?"

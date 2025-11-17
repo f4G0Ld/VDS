@@ -41,10 +41,10 @@ export default function Storage () {
     
     
     return (
-        <div className="flex flex-col w-[692px] gap-2">
+        <div className="flex flex-col container gap-2">
             <Info 
             title="Хранилище"
-            text="Как выбрать накопитель и его объём?"
+            text="Как выбрать накопитель и его объём ?"
             />
             <div className="flex flex-col p-6 border border-[#494B55] rounded-2xl gap-4">
                 <DualToggle 

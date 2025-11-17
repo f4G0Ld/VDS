@@ -7,7 +7,7 @@ import DualToggle from "@/components/toggle";
 
 export default function Backup () {
     return (
-        <div className="flex flex-col w-[692px] gap-2">
+        <div className="flex flex-col container gap-2">
             <Info 
             title="Резервное копирование"
             text="Зачем нужно резервное копирование ?"

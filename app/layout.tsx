@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="ru">
       <body
-        className={`${CommissionerSans.variable} antialiased`}
+        className={`${CommissionerSans.variable} antialiased flex justify-center container`}
       >
         {children}
       </body>
